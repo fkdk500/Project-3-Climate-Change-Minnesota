@@ -10,7 +10,7 @@ import json
 from flask_cors import CORS, cross_origin
 
 #Database setup
-engine = create_engine("sqlite:///Weather2.db")
+engine = create_engine("sqlite:///data/Weather2.db")
 
 #reflect database and tables
 Base=automap_base()
